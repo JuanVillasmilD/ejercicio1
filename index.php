@@ -156,7 +156,7 @@ if (isset($_POST['btn'])) {
 
     echo "<form>";
     echo "<br>";
-    // Ciclo for para contar cuantas mujeres hay
+    // Ciclo for para contar cuantas mujeres hay.
     for ($var = 0; $var <= 4; $var++) {
         if ($sexos[$var] == "fem") {
             $femtotal = $femtotal + 1;
@@ -167,6 +167,7 @@ if (isset($_POST['btn'])) {
     echo "<hr>";
     echo "<br>";
 
+    // Ciclo for para contar cuantos hombres casados que ganen mas de 2500 Bs hay.
     for ($var = 0; $var <= 4; $var++) {
         if ($sexos[$var] == "mas" && $civiles[$var] == "cas" && $sueldos[$var] == "mas") {
             $homcastotal = $homcastotal + 1;
@@ -177,6 +178,7 @@ if (isset($_POST['btn'])) {
     echo "<hr>";
     echo "<br>";
 
+    // Ciclo for para contar cuantas mujeres viudas que ganen mas de 1000 Bs hay.
     for ($var = 0; $var <= 4; $var++) {
         if ($sexos[$var] == "fem" && $civiles[$var] == "viu" && ($sueldos[$var] == "entre" || "mas")) {
             $femviutotal = $femviutotal + 1;
@@ -187,6 +189,7 @@ if (isset($_POST['btn'])) {
     echo "<hr>";
     echo "<br>";
 
+    // Ciclo for para sacar promedio de la edad de los hombres.
     for ($var = 0; $var <= 4; $var++) {
         if ($sexos[$var] == "mas") {
             $suma = 0;
