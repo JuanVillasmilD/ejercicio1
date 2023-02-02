@@ -6,16 +6,21 @@
 }
 
 body {
-	background-color: rgb(168, 255, 255);
+	background-size: 100%;
+	background-attachment: fixed;
 }
 
 form {
 	padding: 50px 20px;
-	background-color: #ededed;
+	background-color: #f3f3f3;
 	margin: calc(25% + 100px);
 	margin-top: 50px;
 	padding-top: 28px;
 	margin-bottom: 30px;
+	border-radius: 20px;
+	border-color: black;
+	border-style: inset;
+	border-width: 1px;
 }
 
 h1 {
@@ -37,6 +42,7 @@ input {
 	margin: auto;
 	margin-top: 12px;
 	font-size: 16px;
+	border-radius: 12px;
 }
 
 input[type='submit']{
@@ -46,6 +52,8 @@ input[type='submit']{
 	margin: 0 10%;
 	margin-top: 40px;
 	border: none;
+	border-radius: 12px;
+	
 }
 
 select {
@@ -54,4 +62,5 @@ select {
 	margin: auto;
 	margin-top: 12px;
 	font-size: 16px;
+	border-radius: 12px;
 }
