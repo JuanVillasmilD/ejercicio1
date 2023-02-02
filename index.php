@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 </head>
 
-<body background="wallpaper.jpg">
+<body background="./img/wallpaper.jpg">
     <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
         <h1 id="titulo">Sistema de Ingreso de Empleados</h1>
         <br>
