@@ -10,7 +10,7 @@
 </head>
 
 <body background="./img/wallpaper.jpg">
-    <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
+    <form method="post" action="resultado.php">
         <h1 id="titulo">Sistema de Ingreso de Empleados</h1>
         <br>
         <hr>
@@ -124,6 +124,7 @@
         </select>
 
         <input type="submit" name="btn" value="Enviar">
+        <input type="reset" name="btn" value="Limpiar">
     </form>
 
 

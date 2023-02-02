@@ -48,9 +48,20 @@ input {
 input[type='submit']{
 	background-color: #48e;
 	color: #fff;
-	width: calc(50% - 60px);
+	width: calc(80% - 70px);
 	margin: 0 10%;
 	margin-top: 40px;
+	border: none;
+	border-radius: 12px;
+	
+}
+
+input[type='reset']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 70px);
+	margin: 0 10%;
+	margin-top: 15px;
 	border: none;
 	border-radius: 12px;
 	
