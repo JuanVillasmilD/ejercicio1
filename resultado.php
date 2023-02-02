@@ -83,6 +83,10 @@ if (isset($_POST['btn'])) {
         }
     }
     echo "<h3>Edad promedio de los hombres: " . $promediomas . "</h3>";
+    echo "<br>";
+    echo "<hr>";
+    echo "<br>";
+    echo "<a href='index.php'><button type='button'>VOLVER</button></a>";
     echo "</form>";
 }
 

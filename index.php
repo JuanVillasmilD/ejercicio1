@@ -163,7 +163,7 @@ if (isset($_POST['btn'])) {
             $femtotal = $femtotal + 1;
         }
     }
-    echo "<h3>Total de mujeres: " . $femtotal . "</h3>";
+    echo "<h3>Total de mujeres: <h3>" . $femtotal . "</h3></h3>";
     echo "<br>";
     echo "<hr>";
     echo "<br>";

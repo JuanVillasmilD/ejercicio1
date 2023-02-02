@@ -37,7 +37,16 @@ h3 {
 
 
 input {
-	width: calc(100% - 20px);
+	width: calc(100% - 45px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+	border-radius: 12px;
+}
+
+select {
+	width: calc(100% - 25px);
 	padding: 9px;
 	margin: auto;
 	margin-top: 12px;
@@ -67,11 +76,14 @@ input[type='reset']{
 	
 }
 
-select {
-	width: 100%;
-	padding: 9px;
-	margin: auto;
-	margin-top: 12px;
-	font-size: 16px;
-	border-radius: 12px;
+button {
+	background-color: #48e;
+	color: #fff;
+	width: calc(40% - 70px);
+	height: 35px;
+	margin: 0 10%;
+	margin-top: 15px;
+	border: none;
+	border-radius: 18px;
+	font-size: 15px;
 }
